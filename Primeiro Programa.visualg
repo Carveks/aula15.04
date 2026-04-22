@@ -1,0 +1,36 @@
+algoritmo "Pizzaria com escolha de caso"
+
+//declarar variavel
+
+var
+  nome: caractere
+  sabor: inteiro
+
+//iniciando o programa
+
+inicio
+
+//passo 1 - receber o nome do usuário
+
+  escreval("Bem vindo(a) á Buonna Pizza Case. Qual o seu nome ")
+  leia(nome)//armazenar o nome do cliente
+  escreval(nome, "Digite o número do saboe desejado: '1'- Mussarela, '2'- Marguerita, '3'- Calabresa, '4'- Frango")
+  leia(sabor)
+
+  //para iniciar o fator de escolha para o user
+
+  escolha sabor
+    caso 1
+      escreval("Pizza de Mussarela, pedido foi feito")
+    caso 2
+      escreval("Pizza de Marguerita, pedido foi feito")
+    caso 3
+      escreval("Pizza de Calabresa, pedido foi feito")
+    caso 4
+      escreval("Pizza de Frango, pedido foi feito")
+      //e se a pessoa escolher a opção não disponivel
+    outrocaso
+    escreva("Opção inválida") 
+  fimescolha    
+
+fimalgoritmo
