@@ -1,0 +1,13 @@
+algoritmo "laço de repetição"
+
+//declarar variaveis
+var:
+  i:inteiro //essa variavel armazenará a quanidade de voltas que o código fará
+
+//começando o programa
+inicio
+  //estrutura para o loop/looping(laço)
+  para i de 1 ate 3 faca  
+  escreva (" Loop ", i)
+  fimpara
+fimalgoritmo

@@ -1,0 +1,15 @@
+algoritmo "taboada"
+
+var
+  numero, res: inteiro
+
+inicio
+  escreval("Digite um número: ")
+  leia(numero)
+  
+  para res de 1 ate 10 faca
+   escreva (numero*res " " )
+    
+  fimpara
+
+fimalgoritmo
